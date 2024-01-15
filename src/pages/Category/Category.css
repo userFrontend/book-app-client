@@ -1,0 +1,42 @@
+.box-category{
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    height: 67vh;
+    margin-top: 25px;
+    overflow: auto;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.box-category .card{
+    margin-top: 20px;
+    width: 303px;
+    border-radius: 20px !important;
+}
+
+.card-image img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-title{
+    padding: 10px;
+    text-align: center;
+}
+
+.add-category{
+    position: absolute;
+    margin: 100px;
+    top: -90px;
+    right: -90px;
+  }

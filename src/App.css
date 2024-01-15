@@ -1,0 +1,65 @@
+:root{
+  --textColor: orange;
+  --activeColor: white;
+  --bg-color: rgba(0, 0, 0, 0.777);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.App{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  opacity: 0.8;
+  z-index: -2;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+}
+
+.edit-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  gap: 10px;
+  position: absolute;
+  top: -25px;
+  right: 5px;
+  z-index: 1000;
+}
+
+.toast{
+  z-index: 1000;
+}

@@ -1,0 +1,53 @@
+.box-account{
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    padding: 50px;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.box-account img {
+    width: 350px;
+    height: 350px;
+    margin: 35px 0;
+    object-fit: cover;
+}
+
+.box-account input {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+}
+
+.box-account input:hover{
+    background-color: rgba(255, 255, 255, 0.23);
+}
+.user-data{
+    padding: 30px;
+}
+
+.user-data form {
+    display: flex;
+    gap: 100px;
+}
+.user-data form div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.time-box{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    gap: 20px;
+}
